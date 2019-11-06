@@ -38,11 +38,16 @@ const siteConfig = {
 
     // For no header links in the top nav bar -> headerLinks: [],
     headerLinks: [
-        {doc: 'doc1', label: 'Docs'},
-        {doc: 'doc4', label: 'API'},
-        {page: 'help', label: 'Help'},
-        {blog: true, label: 'Blog'},
+        {doc: 'how_to_setup', label: 'Docs'},
+        {doc: 'api', label: 'API'},
+        {search: true}
     ],
+
+    algolia: {
+        apiKey: 'f2d903d460be1528c85ac95a7fdd6d60',
+        indexName: 'doc-app',
+        appId: 'O0C17E3KP8'
+    },
 
     // If you have users set above, you add it here:
     users,
@@ -104,7 +109,7 @@ const siteConfig = {
 
     // You may provide arbitrary config keys to be used as needed by your
     // template. For example, if you need your repo's URL...
-    //   repoUrl: 'https://github.com/facebook/test-site',
+      repoUrl: 'https://github.com/supanadit/geosmartsystem',
 };
 
 module.exports = siteConfig;

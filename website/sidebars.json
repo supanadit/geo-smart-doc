@@ -1,10 +1,12 @@
 {
   "docs": {
-    "Getting Started": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Getting Started": [
+      "how_to_setup"
+    ]
   },
   "docs-other": {
-    "First Category": ["doc4", "doc5"]
+    "API": [
+      "api"
+    ]
   }
 }
