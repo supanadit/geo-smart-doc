@@ -40,14 +40,14 @@ const siteConfig = {
     headerLinks: [
         {doc: 'how_to_setup', label: 'Docs'},
         {doc: 'api', label: 'API'},
-        {search: true}
+        // {search: false}
     ],
 
-    algolia: {
-        apiKey: 'f2d903d460be1528c85ac95a7fdd6d60',
-        indexName: 'doc-app',
-        appId: 'O0C17E3KP8'
-    },
+    // algolia: {
+    //     apiKey: 'f2d903d460be1528c85ac95a7fdd6d60',
+    //     indexName: 'doc-app',
+    //     appId: 'O0C17E3KP8'
+    // },
 
     // If you have users set above, you add it here:
     users,
